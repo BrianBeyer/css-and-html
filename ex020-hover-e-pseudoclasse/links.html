@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        a{
+            color: rgb(255, 0, 0);
+            background-color: black;
+            text-decoration: none; /*para tirar decoração como o sublinado de link*/
+        }
+        a:visited{ /*se o site for visitado*/
+            color:blue ;
+            background-color: white;
+        }
+        a:hover{
+           background-color: yellow;
+           text-decoration: underline;
+        }
+        a:active{
+            color: rgb(0, 0, 0);
+            font-size: 24px;
+        }
+        div:hover{font-size: x-large;
+            background-color: wheat;
+            width: 90px;
+        }
+        
+        a::after {
+            content: '[LINK]';
+        } /*pseudo elemento, mostrar um conteudo apos esse elemento*/
+        .especial:hover{
+            background-color: rgb(255, 0, 0);
+        }
+        
+
+            </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li> <a href="http://gustavoguanabara.github.io" target="_blanck">Repositorio GitHub</a> </li>
+        <li><a href="http://youtube.com/cursoemvideo/" class="especial"  target="_blanck">Canal do Youtube</a> </li>
+        <li><a href="http://www.cursoemvideo.com" target="_blanck">Site do curso em video</a> </li>
+        
+    </ul>
+    <h1>Menu interativo</h1>
+    <ul>
+        <li><div> Opção 1</div></li>
+        <li><div> Opção 2</div></li>
+        <li><div> Opção 3</div></li>
+    </ul>
+</body>
+</html>

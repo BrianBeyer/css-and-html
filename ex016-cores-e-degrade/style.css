@@ -1,0 +1,27 @@
+@charset "UTF-8";
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   /* height: 100%; */
+}
+body{
+    background-image: linear-gradient(to right, #f1d8c9, #f2c3a7);
+}
+p{
+    text-align: right;
+}
+main{
+    background-color: rgba(255, 255, 255, 0.404);
+    width: 600px; /*para ajustar a largura do fundo*/
+    padding: 10%; /*para dar um espaço depois das letras*/
+    margin: auto; /*para centralizar o conteudo*/
+    border-radius: 40px; /*arredondar as bordas*/
+    box-shadow: 5px 5px 20px #6e594d; /* para colocar sombra, primeiro parametro é quanto a sombra vai andar para o lado, segundo parametro é quanto a sombra vai andar para baixo, terceiro parametro quanto a sombra vai espalhar, quarto parametro é quanta transparencia vai ter*/
+}
+h1{
+    color: #f39209;
+    text-align: center;
+    text-shadow: 1px 1px 1px #643d06;
+}
+h2{
+    color: #125189;
+}

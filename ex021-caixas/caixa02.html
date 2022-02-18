@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+         body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #adff2f;
+        
+        }
+        header {
+            background-color: #76c500;
+            border-radius: 0px 20px 20px 0px;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 5px -5px 10px rgb(0, 0, 0)
+        }   
+                
+        main {
+            background-color: #76c500;
+            border-radius: 30px 30px 1px 1px;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: inset 5px -5px 10px 1px rgb(0, 0, 0)
+
+        }
+            article > aside {
+            background-color: #adff2f;
+            border-radius: 30px;
+            padding-left: 10px;
+        }
+        nav{
+            background-color: red;
+            text-align: center;
+            border-radius: 20px;
+
+            }
+            nav > a{ /*todo link dentro do nav vai ter...*/
+                text-decoration: none;
+                color: black;
+                font-weight: bolder;
+                margin-right: 30px;
+                
+            }
+            nav > a:hover{
+                font-size: larger;
+                background-color: black;
+                color: red;
+                border-radius: 20px;
+                padding: 10px;
+                text-decoration: underline;
+            }
+            footer{
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+            text-align: right;
+            padding: 1px 10px 1px 10px;
+            margin: 10px;
+            box-shadow: 5px -5px 10px 5px black;
+         }
+         footer > p{
+             margin: 0px;
+         }
+         div#bola{
+             height: 100px;
+             width: 100px;
+             margin: 10px;
+             background-color: blue;
+             border-radius: 50px;
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+            <a href="#">Link 6</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga enim nesciunt dolore voluptas, eaque ipsum fugiat ea itaque in sint quia perspiciatis molestiae perferendis voluptatem architecto ipsa doloremque eius nobis.</p>
+                <aside>
+                    <p>Artigo escrito pelo escritor</p>
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo desenvolvedor</p>
+
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
